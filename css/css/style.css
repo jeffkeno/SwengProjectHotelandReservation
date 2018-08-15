@@ -1,0 +1,142 @@
+
+.col1, .col2, .col3, .cols { float:left;}
+a, canvas, div, fieldset,font, h1, h2, h3, h4, h5, h6, header, hgroup, html,i,nav,var{
+    background: transparent;
+    border: 0 none;
+    font-size: 100%;
+    margin: 0;
+		padding: 0;
+		border: 0;
+		outline: 0;
+    vertical-align: top; }
+
+
+img {
+	vertical-align:top; 
+}
+.col1{ width:250px;}
+.col2{ width:570px;}
+.col3{ width:240px;}
+.cols{ width:78px; padding-bottom:0}
+article, canvas,  {display:inline }
+.left {float:left}
+.right {float:right}
+.wrapper {width:100%;overflow:hidden;}
+body {background:url(../../image/bg.jpg); no-repeat; background-size:cover; border:0;font:12px Arial, Helvetica, sans-serif;color:#72716f;line-height:20px;min-width:980px}
+.main {margin:0 auto;width:960px;padding:0 6px}
+a {color:#72716f;text-decoration:underline;outline:none}
+a:hover {text-decoration:none}
+h1 {padding:40px 0 0 38px;float:left}
+h2 {font-size:21px;line-height:1.2em;padding:6px 0 15px 0;color:#fff;letter-spacing:-1px}
+h2 img {margin-right:15px;float:left}
+p {padding-bottom:20px}
+header {height:116px}
+#logo {display:block;text-indent:-9999px;background:url(../../image/logo.png) 0 0 no-repeat;width:250px;height:76px}
+#menu {background:#fff;padding:10px 2px;height:39px;margin-bottom:10px}
+#menu > li {border-right:1px solid #f2f2f2;float:left}
+#menu .last {border:0}
+#menu > li > a {display:block;padding:0 62px;font-size:16px;color:#12110f;text-decoration:none;line-height:39px}
+#menu > li > a:hover, #menu > .active > a {color:#f3b21d}
+#content {}
+.box1 {background:#fff;padding:10px}
+.box1 h2 {color:#12110f;padding:7px 0 14px 0}
+.button1, .button2 {display:inline-block;background:#fff;padding:0 25px;color:#12110f;line-height:29px;position:relative;border-radius:1px;-moz-border-radius:1px;-webkit-border-radius:1px;text-decoration:none}
+.button2 {background:#12110f;color:#fff;padding:0 22px; }
+.button1:hover {background:#2a2824;color:#72716f}
+.button2:hover {background:#f3b21d}
+.kwicks-wrapper {width:640px;overflow:hidden}
+.kwicks {list-style:none;position:relative;margin:0;padding:0 !important;overflow:hidden;height:414px;background:none}
+.kwicks li {width:160px;height:414px;display:block;overflow:hidden;padding:0 !important;cursor:pointer;background:none !important;}
+.kwicks.horizontal li {margin-right:0;float:left}
+.marg_right1 {margin-right:20px}
+.pad_bot1 {padding-bottom:10px}
+.pad_bot2 {padding-bottom:24px}
+.pad_left1 {padding-left:70px}
+.pad_left2 {padding-left:80px}
+.list2 {border-top:1px solid #f2f2f2;margin-top:-2px;padding-bottom:21px}
+.list2 li {line-height:23px;border-bottom:1px solid #f2f2f2;padding:0 6px;color:#000}
+.list2 span {float:right}
+#ContactForm {padding:0 10px 0 0;margin-top:-2px}
+#ContactForm .wrapper {overflow:inherit;min-height:30px;line-height:24px}
+#ContactForm a {margin-left:10px;float:right;padding:0 20px}
+#ContactForm .input {margin:0;float:right;width:482px;height:16px;background:#fff;border:1px solid #f2f2f2;padding:3px 5px;color:#72716f;font:12px Arial, Helvetica, sans-serif}
+#ContactForm textarea {overflow:auto;margin:0;float:right;width:482px;height:198px;background:#fff;border:1px solid #f2f2f2;padding:3px 5px;color:#72716f;font:12px Arial, Helvetica, sans-serif}
+#form1 {width:240px;height:354px;float:right;padding:30px;background:#12110f}
+#form1 h2 {padding:0 0 22px 0;margin-top:-4px;color:#fff}
+#form1 .right {width:140px}
+#form1 .row {height:30px;line-height:22px}
+#form1 .input {font:12px Arial, Helvetica, sans-serif;color:#72716f;background:none;height:15px;padding:3px 5px;width:128px;margin:0}
+#form1 textarea {font:12px Arial, Helvetica, sans-serif;color:#72716f;background:none;height:54px;padding:3px 5px;width:222px;margin:0;overflow:auto}
+.jqTransformHidden {display:none}
+.jqTransformInputWrapper {border:1px solid #2a2824;position:relative;border-radius:1px;-moz-border-radius:1px;-webkit-border-radius:1px;float:right;height:21px;width:138px !important}
+.jqTransformTextarea {border:1px solid #2a2824;position:relative;border-radius:1px;-moz-border-radius:1px;-webkit-border-radius:1px;height:64px;width:100%;margin-top:4px}
+.jqTransformSelectWrapper {position:relative;float:right}
+.jqTransformSelectWrapper div {font:12px Arial, Helvetica, sans-serif;color:#72716f;display:block;position:relative;height:21px;line-height:21px;overflow:hidden;cursor:pointer;border:1px solid #2a2824;background:none;border-radius:1px;-moz-border-radius:1px;-webkit-border-radius:1px}
+.jqTransformSelectWrapper div span {padding:0 0 0 5px;display:block}
+a.jqTransformSelectOpen {display:block;position:absolute;top:1px;right:1px;width:19px;height:19px;background:url(../img/select.gif) no-repeat}
+.jqTransformSelectWrapper ul {position:absolute;top:24px;left:0;background:#12110f;border:1px solid #2a2824;border-radius:1px;-moz-border-radius:1px;-webkit-border-radius:1px;display:none;z-index:10; padding:5px 0;height:50px;overflow:auto}
+.jqTransformSelectWrapper ul a {display:block;padding:0 5px;text-decoration:none;line-height:20px}
+.jqTransformSelectWrapper ul a.selected {color:#fff}
+.jqTransformSelectWrapper ul a:hover, .jqTransformSelectWrapper ul a.selected:hover {color:#fff;background:#2a2824}
+#form1 .select1 .jqTransformSelectWrapper div, #form1 .select1 .jqTransformSelectWrapper ul {width:138px !important}
+#form1 .select2 .jqTransformSelectWrapper div, #form1 .select2 .jqTransformSelectWrapper ul {width:42px !important}
+#form1 .select2 {float:right;width:44px;margin-left:4px}
+#form1 .button1 {float:right;margin-left:4px;padding:0 19px}
+body {font-size: 13px;}
+#confirmcontent{
+    font-size: 14px;
+
+    line-height: 20px;
+
+    text-spacing: no-compress;
+}
+#confirmcontent input,select {
+    border: #606061 solid 1px;
+    padding: 0px;
+}
+.confirmbookwrapper{
+    width: 500px;
+    float: left;
+    padding: 10px;
+}
+.rules-wrapper{
+    width: 380px;
+    overflow: hidden;
+    padding: 10px;
+}
+
+
+* { border:none; }
+.table{
+text-align:center;
+width:90%;
+height:30%;
+}
+.tab{
+overflow-y:scroll;
+height :50%;
+}
+.tab2{
+overflow-y:scroll;
+overflow-x:scroll;
+background-color:black;
+width:90%;
+height :50%;
+}
+ .th {
+   background-color:#120A2A;
+   color:white;
+   width:15%;
+}
+ .th2{
+   background-color:#2EFE64;
+   color:black;
+   width:15%;
+}
+.td{
+background-color:#CEE3F6;
+}
+.td2{
+background-color:#0489B1;
+  color:white;
+}
